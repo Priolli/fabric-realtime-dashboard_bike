@@ -18,16 +18,16 @@ To build an end-to-end flow that:
 ## 🛠️ Technologies Used
 
 - **Microsoft Fabric**
-- **Eventstream** – for real-time ingestion
-- **Eventhouse (KQL Database)** – for storing and querying the data
-- **Kusto Query Language (KQL)** – to power dashboard queries
+- **Eventstream** – for real-time ingestion  
+- **Eventhouse (KQL Database)** – for storing and querying the data  
+- **Kusto Query Language (KQL)** – to power dashboard queries  
 - **Real-Time Dashboard** – for interactive live visualization
 
 ---
 
 ## 🔄 Flow Architecture
 
-![Fabric Real-Time Flow](fabric_realtime_flow.png)
+![Fabric Real-Time Flow](images:fabric_realtime_flow.png.png)
 
 **Steps:**
 1. **Event Source** – streaming data source (simulated in the lab).  
@@ -39,16 +39,16 @@ To build an end-to-end flow that:
 
 ## 📌 Implementation Steps
 
-### 1. Create Eventstream
-- Configured a simulated streaming data source.
-- Applied initial transformations and field mappings.
+### 1) Create Eventstream
+- Configure a simulated streaming data source.
+- Apply initial transformations and field mappings.
 
-### 2. Connect to Eventhouse
-- Created a KQL database in Microsoft Fabric.
-- Linked the Eventstream to store incoming events.
+### 2) Connect to Eventhouse
+- Create a KQL database in Microsoft Fabric.
+- Link the Eventstream to store incoming events.
 
-### 3. Write KQL Queries
-Example of a query used in the dashboard:
+### 3) Write KQL Queries
+Example used in the dashboard:
 
 ```kql
 EventsTable
@@ -56,19 +56,19 @@ EventsTable
 | order by Timestamp desc
 ```
 
-4. Build Real-Time Dashboard
-Added tiles based on KQL queries.
+4) Build Real-Time Dashboard
+Add tiles based on KQL queries.
 
-Configured parameters for interactive filtering.
+Configure parameters for interactive filtering.
 
-Enabled auto-refresh for continuous live updates.
+Enable auto-refresh for continuous live updates.
 
 📷 Screenshots
-Dashboard in real-time:
-images:dashboard.png
+Dashboard (real-time):
+
 
 🎥 Live Example
-images:dashboard_live.gif
+'images:dashboard_live.gif'
 
 📚 Key Learnings
 How Microsoft Fabric integrates ingestion, transformation, and visualization in a unified environment.
@@ -85,7 +85,6 @@ Live sales dashboards for retail environments.
 Security incident tracking in real-time.
 
 📎 Reference
-This project is based on the official Microsoft Learn lab:
+Based on the official Microsoft Learn lab:
 Create a real-time dashboard in Microsoft Fabric
-
 
