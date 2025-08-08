@@ -27,7 +27,7 @@ To build an end-to-end flow that:
 
 ## 🔄 Flow Architecture
 
-![Fabric Real-Time Flow](images/fabric_realtime_flow.png)
+![Fabric Real-Time Flow](fabric_realtime_flow.png)
 
 **Steps:**
 1. **Event Source** – streaming data source (simulated in the lab).  
@@ -54,3 +54,38 @@ Example of a query used in the dashboard:
 EventsTable
 | summarize Count = count() by Category, bin(Timestamp, 1m)
 | order by Timestamp desc
+```
+
+4. Build Real-Time Dashboard
+Added tiles based on KQL queries.
+
+Configured parameters for interactive filtering.
+
+Enabled auto-refresh for continuous live updates.
+
+📷 Screenshots
+Dashboard in real-time:
+images:dashboard.png
+
+🎥 Live Example
+images:dashboard_live.gif
+
+📚 Key Learnings
+How Microsoft Fabric integrates ingestion, transformation, and visualization in a unified environment.
+
+The difference between traditional historical dashboards and streaming dashboards.
+
+The importance of KQL for fast, efficient queries in real-time analytics.
+
+🚀 Potential Real-World Applications
+IoT monitoring for devices and sensors.
+
+Live sales dashboards for retail environments.
+
+Security incident tracking in real-time.
+
+📎 Reference
+This project is based on the official Microsoft Learn lab:
+Create a real-time dashboard in Microsoft Fabric
+
+
