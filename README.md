@@ -1,6 +1,6 @@
 # Real-Time Dashboard in Microsoft Fabric
 
-This repository contains a simple yet practical implementation of a **real-time dashboard** in Microsoft Fabric, created as part of the [official Microsoft Learn lab](https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/13-real-time-dashboards.html#clean-up-resources).
+This repository contains a simple yet practical implementation of a **real-time dashboard** in Microsoft Fabric, created as part of the [official Microsoft Learn lab](https://microsoftlearning.github.io).
 
 The goal of this exercise was to explore **Real-Time Intelligence** capabilities within Microsoft Fabric, from data ingestion to live visualization.
 
@@ -27,7 +27,7 @@ To build an end-to-end flow that:
 
 ## 🔄 Flow Architecture
 
-![Fabric Real-Time Flow](images:fabric_realtime_flow.png.png)
+![Fabric Real-Time Flow](images/fabric_realtime_flow.png)
 
 **Steps:**
 1. **Event Source** – streaming data source (simulated in the lab).  
@@ -68,7 +68,7 @@ Dashboard (real-time):
 
 
 🎥 Live Example
-'images:dashboard_live.gif'
+![Dashboard Live](images/dashboard_live.gif)
 
 📚 Key Learnings
 How Microsoft Fabric integrates ingestion, transformation, and visualization in a unified environment.
@@ -87,4 +87,3 @@ Security incident tracking in real-time.
 📎 Reference
 Based on the official Microsoft Learn lab:
 Create a real-time dashboard in Microsoft Fabric
-
