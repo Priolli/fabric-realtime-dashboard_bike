@@ -65,6 +65,7 @@ Enable auto-refresh for continuous live updates.
 
 📷 Screenshots
 Dashboard (real-time):
+![Dashboard Screenshot](images/dashboard.png)
 
 
 🎥 Live Example
@@ -87,3 +88,7 @@ Security incident tracking in real-time.
 📎 Reference
 Based on the official Microsoft Learn lab:
 Create a real-time dashboard in Microsoft Fabric
+
+
+## 📚 Keep up with the Dashboard updates
+https://app.fabric.microsoft.com/links/7EMdCHp4if?ctid=e4bd69ff-e6f7-4c2e-b247-41b54ba2490e&pbi_source=linkShare&experience=fabric-developer&extensionScenario=openArtifact&v-_startTime=1hours&v-_endTime=now&page=da852092-204b-4337-9c44-5479fcaa69a8&v-selected_neighbourhoods=all
